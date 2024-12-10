@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2FÁcil</title>
+   <link rel="stylesheet" href="./src/css/reset.css">
+   <link rel="stylesheet" href="./src/css/estilos.css">
+   <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+  <header>
+    <h1>Autenticador 2FÁcil</h1>
+  </header>
+  
+  <main>
+<div id="timerContainer">
+  <div id="timer"></div>
+</div>
+<div id="clockContainer">
+  <div id="clock"></div>
+  <div id="date"></div>
+</div>
+    <!-- Lista de autenticações -->
+    <div id="authListContainer">
+      <h2 id="h2">Autenticações Registradas</h2>
+      <div id="authList" class="auth-list"></div>
+    </div>
+
+    <!-- Botão para gerar todos os códigos -->
+    <div class="button-container">
+      <button class="btn" onclick="generateAllTOTPs()">Gerar Todos os Códigos</button>
+    </div>
+  </main>
+  
+  <footer>
+    <p>Autenticador 2FÁcil © 2024</p>
+  </footer>
+
+   <script src="./src/js/index.js"></script> 
+</body>
+</html>

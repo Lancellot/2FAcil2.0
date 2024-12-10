@@ -1,0 +1,42 @@
+/* Estilos para telas menores que 769px */
+@media (max-width: 769px) {
+  #clockContainer, #timerContainer {
+    display: none; /* Remove o relógio e o temporizador */
+  }
+ h2{
+ color:white;
+}
+
+  /* Ajuste geral para o layout */
+  body {
+    padding: 10px; /* Reduz o espaçamento para telas menores */
+  }
+
+  #authListContainer {
+    margin-top: 60px; /* Ajusta o espaço para o cabeçalho */
+  }
+
+  .auth-list div {
+    max-width: 100%; /* Garante que os elementos usem toda a largura disponível */
+  }
+
+  .btn {
+    width: 100%; /* Botão ocupa toda a largura */
+  }
+}
+
+/* Estilos para telas menores que 425px */
+@media (max-width: 425px) {
+  #clockContainer, #timerContainer {
+    display: none; /* Remove o relógio e o temporizador */
+  }
+
+  #authListContainer h2 {
+    font-size: 1.2rem; /* Reduz o tamanho do título */
+  }
+
+  .btn {
+    font-size: 0.9rem; /* Reduz o tamanho do texto no botão */
+    padding: 8px 12px; /* Ajusta o preenchimento */
+  }
+}
